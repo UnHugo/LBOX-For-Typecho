@@ -1,4 +1,4 @@
-# LBOX 0.1-base2.8( 2017/01/27 更新 )
+# Leaf-R 0.1-base2.8( 2017/01/27 更新 )
 
 ![Responsive Screen Mockup Pack.png](http://mooow.pw/usr/themes/Leaf/screenshot.png)
 
