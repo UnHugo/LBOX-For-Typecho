@@ -6,18 +6,18 @@ function themeConfig($form) {
 	echo '<p style="font-size:16px;text-align:center;">感谢您使用Leaf主题 :<font color="#38b48b">Leaf</font><font color="#F40"> '.Leaf_Version.'</font> ![<a href="http://www.ihewro.com/archives/378" target="_blank">帮助与反馈</a>]</p>';
 	
 	//两个实用的功能
-    $indexsetup = new Typecho_Widget_Helper_Form_Element_Checkbox('indexsetup', 
-    array('IndexImage' => _t('首页图片摇动效果'),
-    'webssl' => _t('多说https数据加密（为https站点设置,有问题<a href="http://www.ihewro.com/archives/378">反馈</a>）')),
-    array('IndexImage'), _t('两个实用的功能'));
-    $form->addInput($indexsetup->multiMode());
+    	$indexsetup = new Typecho_Widget_Helper_Form_Element_Checkbox('indexsetup', 
+    	array('IndexImage' => _t('首页图片摇动效果'),
+    	'webssl' => _t('多说https数据加密（为https站点设置,有问题<a href="http://www.ihewro.com/archives/378">反馈</a>）')),
+    	array('IndexImage'), _t('两个实用的功能'));
+    	$form->addInput($indexsetup->multiMode());
 	
-    //网站ICO图标地址
-	$ICOlink = new Typecho_Widget_Helper_Form_Element_Text('$ICOlink', NULL, '/usr/uploads/siyu.ico', _t('网站ICO图标地址'),_t('输入一个ICO图标链接,带"http://"'));
+    	//网站ICO图标地址
+	$ICOlink = new Typecho_Widget_Helper_Form_Element_Text('ICOlink', NULL, '/usr/uploads/siyu.ico', _t('网站ICO图标地址'),_t('输入一个ICO图标链接,带"http://"'));
 	$form->addInput($ICOlink);
 	
 	//Chrome浏览器颜色标签
-	$ChromeColor = new Typecho_Widget_Helper_Form_Element_Text('$ChromeColor', NULL, '#303030', _t('Chrome颜色标签'),_t('输入一个颜色代码'));
+	$ChromeColor = new Typecho_Widget_Helper_Form_Element_Text('ChromeColor', NULL, '#303030', _t('Chrome颜色标签'),_t('输入一个颜色代码'));
 	$form->addInput($ChromeColor);
 	
 	//首页大标题
