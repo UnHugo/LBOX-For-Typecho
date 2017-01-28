@@ -1,4 +1,4 @@
-# Leaf-Mod-lite 0.1-base2.8( 2017/01/27 更新 )
+# LBOX 0.1-base2.8( 2017/01/27 更新 )
 
 ![Responsive Screen Mockup Pack.png](http://mooow.pw/usr/themes/Leaf/screenshot.png)
 
@@ -29,6 +29,5 @@
 * [AutoTags](https://dt27.org/php/autotags-for-typecho/)
 * [BaiduSubmit](https://blog.phpgao.com/typecho_plugin_baidusubmit.html)
 * [Duoshuo](http://www.ysido.com/duoshuo.html)
-~~* [EditorMD](https://dt27.org/php/editormd-for-typecho/)~~
 * [PlayAtWill](https://typecodes.com/web/typechomp3player.html)
 * [ShowGithubRepo](http://techair.cc/88.html)
